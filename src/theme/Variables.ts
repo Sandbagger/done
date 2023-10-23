@@ -19,6 +19,11 @@ export const Colors = {
   textGray400: '#4D4D4D',
   textGray200: '#A1A1A1',
   primary: '#E14032',
+  onPrimary: '#FFFFFF',
+  background: '#F5F5F5',
+  onBackground: '#000000',
+  surface: '#FFFFFF',
+  onSurface: '#000000',
   success: '#28a745',
   error: '#dc3545',
   //ComponentColors
@@ -31,6 +36,7 @@ export const NavigationColors: Partial<ThemeNavigationColors> = {
   background: '#EFEFEF',
   card: '#EFEFEF',
 };
+
 
 /**
  * FontSize

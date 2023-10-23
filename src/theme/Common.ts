@@ -11,6 +11,11 @@ export default function <C>({ Colors, ...args }: CommonParams<C>) {
   return {
     button: buttonStyles({ Colors, ...args }),
     ...StyleSheet.create({
+      box: {
+        color: Colors.onSurface,
+        backgroundColor: Colors.surface,
+        padding: 10,
+      },
       backgroundPrimary: {
         backgroundColor: Colors.primary,
       },
@@ -24,6 +29,12 @@ export default function <C>({ Colors, ...args }: CommonParams<C>) {
         borderRadius: 10,
         paddingStart: 20,
       },
+      primary: Colors.primary,
+      background: Colors.background,
+      surface: Colors.surface,
+      onPrimary: Colors.onPrimary,
+      onBackground:Colors.onBackground,
+      onSurface: Colors.onSurface,
     }),
   };
 }
